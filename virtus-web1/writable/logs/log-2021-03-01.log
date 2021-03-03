@@ -1,0 +1,53 @@
+CRITICAL - 2021-03-01 07:58:24 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\virtus-web1\app\Controllers\Login.php(21): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\virtus-web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-01 07:58:48 --> Call to undefined method App\Models\HistoryPelanggaran::getSiswa
+#0 C:\xampp\htdocs\virtus-web1\app\Controllers\Dashboard.php(27): CodeIgniter\Model->__call('getSiswa', Array)
+#1 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\virtus-web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-01 07:59:04 --> Call to undefined method App\Models\HistoryPelanggaran::getSiswa
+#0 C:\xampp\htdocs\virtus-web1\app\Controllers\Dashboard.php(27): CodeIgniter\Model->__call('getSiswa', Array)
+#1 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\virtus-web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-01 08:22:51 --> Not unique table/alias: 'master_data_personil'
+#0 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\virtus-web1\app\Models\HistoryPelanggaran.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\virtus-web1\app\Controllers\Dashboard.php(27): App\Models\HistoryPelanggaran->getNama()
+#6 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\virtus-web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-01 08:29:07 --> Table 'u649782035_security.data_pelamggaran' doesn't exist
+#0 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\virtus-web1\app\Models\PersonilModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\virtus-web1\app\Controllers\Dashboard.php(27): App\Models\PersonilModel->getNama()
+#6 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\virtus-web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\virtus-web1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}

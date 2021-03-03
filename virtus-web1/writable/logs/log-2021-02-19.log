@@ -1,0 +1,33 @@
+CRITICAL - 2021-02-19 03:39:33 --> View themes, no current section.
+#0 E:\zaam\virtuz\virtus-web\app\Views\Shift\Shift.php(356): CodeIgniter\View\View->endSection()
+#1 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\zaam\\virtuz\\...')
+#2 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Shift/Shift', Array, true)
+#3 E:\zaam\virtuz\virtus-web\app\Controllers\Shift.php(9): view('Shift/Shift')
+#4 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Shift->index()
+#5 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shift))
+#6 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\zaam\virtuz\virtus-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\zaam\\virtuz\\...')
+#9 {main}
+CRITICAL - 2021-02-19 03:39:35 --> View themes, no current section.
+#0 E:\zaam\virtuz\virtus-web\app\Views\Shift\Shift.php(356): CodeIgniter\View\View->endSection()
+#1 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\zaam\\virtuz\\...')
+#2 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Shift/Shift', Array, true)
+#3 E:\zaam\virtuz\virtus-web\app\Controllers\Shift.php(9): view('Shift/Shift')
+#4 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Shift->index()
+#5 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shift))
+#6 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\zaam\virtuz\virtus-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\zaam\\virtuz\\...')
+#9 {main}
+CRITICAL - 2021-02-19 03:39:40 --> View themes, no current section.
+#0 E:\zaam\virtuz\virtus-web\app\Views\Shift\Shift.php(356): CodeIgniter\View\View->endSection()
+#1 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\zaam\\virtuz\\...')
+#2 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Shift/Shift', Array, true)
+#3 E:\zaam\virtuz\virtus-web\app\Controllers\Shift.php(9): view('Shift/Shift')
+#4 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Shift->index()
+#5 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shift))
+#6 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\zaam\virtuz\virtus-web\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\zaam\virtuz\virtus-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\zaam\\virtuz\\...')
+#9 {main}
